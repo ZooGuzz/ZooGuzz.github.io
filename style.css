@@ -1,0 +1,237 @@
+/*************************************************************/
+
+.carousel-item{
+    height: 800px;
+}
+.carousel-image-1{
+    background-image: url('img/1.jpg');
+    background-size: cover;
+}
+
+/***************************respondsive***********************************/
+
+@media only screen and (max-width:415px){
+    .box1 img{ 
+        position: absolute;
+        margin-top: -70px; 
+        width: 80%;
+        margin-left: -160px;
+        height: auto;
+    }  
+    .container1 h1{ 
+        margin-top: 250px;
+        margin-left: -590px;
+        font-size: 1.7rem;
+    }
+    .container1 h2{ 
+        margin-top: -10px;
+        margin-left: -590px;
+        font-size: 1.3rem;
+    }
+    .container2 { 
+        font-size: 80%;
+        margin-top: 70px;
+    }
+}
+
+/* @media only screen and (min-width:416px) and (max-width:541){
+    .box1 img{ 
+        position: absolute;
+        margin-top: -70px; 
+        width: 50%;
+        margin-left: 80%;
+        height: auto;
+    }  
+    .container1 h1{ 
+        margin-top: 200px;
+        margin-left: -20px;
+        font-size: 1.0rem;
+    }
+    .container1 h2{ 
+        margin-top: -10px;
+        margin-left: -590px;
+        font-size: 1.3rem;
+    }
+    .container2 { 
+        font-size: 80%;
+        margin-top: 100px;
+    }
+} */
+
+@media only screen and (max-width:769px) and (min-width:542px) {
+    .box1 img{ 
+        position: absolute;
+        margin-top: -50px; 
+        width: 40%;
+        margin-left: -80px;
+        height: auto;
+    }
+    
+    .container1 h1{ 
+        margin-top: 460px;
+        margin-left: -200px;
+        font-size: 1.7rem;
+    }
+    .container1 h2{ 
+        margin-top: 20px;
+        margin-left: -200px;
+        font-size: 1.3rem;
+    }
+    .container2 { 
+        font-size: 80%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:1025px) and (min-width:770px) {
+    .box1 img{ 
+        position: absolute;
+        margin-top: -50px; 
+        width: 30%;
+        margin-left: -100px;
+        height: auto;
+    }
+    
+    .container1 h1{ 
+        margin-top: 460px;
+        margin-left: -150px;
+        font-size: 4rem;
+    }
+    .container1 h2{ 
+        margin-top: 20px;
+        margin-left: -160px;
+        font-size: 2rem;
+    }
+    .container2 { 
+        font-size: 80%;
+        margin-top: 100px;
+    }
+}
+
+/****************************home**********************************/
+
+.box1{ 
+    margin-top: 200px; 
+    width: 300px;
+    margin-left: 200px;
+    height: auto;
+}
+
+.box2.caption h1{
+    color: rgb(34, 34, 34);
+}
+
+.container1{
+    color: rgb(34, 34, 34);
+    position: relative;
+    top: -200px;
+    left: 650px;
+}
+
+.carousel-caption{
+    position: relative;
+    top: 500px;
+    left: 80px;
+}
+
+.carousel-caption h3{
+    font-family: 'Ephesis', cursive;
+    color:rgb(112, 51, 16);
+}
+
+/*****************************text*********************************/
+
+/**********************head************************/
+.f1{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+.f1 h2{
+    color:rgb(34, 34, 34);
+}
+
+/**********************about me*********************/
+.f2{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(34, 34, 34);
+    position: relative;
+    margin-left: 25%;
+}
+
+/**********************personalpf********************/
+.f3{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(34, 34, 34);
+
+}
+
+
+/**************************pf************************/
+
+#profile{
+    font-family: 'Prompt', sans-serif;
+}
+
+#profile{
+    min-height: 300px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0)
+}
+
+#profile{
+   background: rgb(224, 219, 197);
+   padding: 250;
+}
+
+/**********************education**********************/
+#education{
+   font-family: 'Prompt', sans-serif;
+   background: rgb(238, 234, 216);
+   padding: 250;
+} 
+
+
+/**********************skill**********************/
+#skill{
+    font-family: 'Prompt', sans-serif;
+    background:  rgb(202, 197, 186);
+    height: auto;
+}
+
+
+/**********************contact**********************/
+#contact{
+    background: rgb(143, 141, 116);
+    height: 180px;
+} 
+
+.f7{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(34, 34, 34);
+    margin-left: 5%;
+} 
+
+.text-center{
+    width: 30%;
+}
+
+/***********************navbar1***********************/
+
+#navbar1 a{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(43, 65, 50);
+}
+
+#navbar2 a{
+    font-family: 'Prompt', sans-serif;
+    color:rgb(43, 65, 50);
+}
+
+.navbar-nav a{
+    text-shadow: 10pc;
+    color: rgb(43, 65, 50);
+}
+
