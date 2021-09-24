@@ -34,29 +34,7 @@
     }
 }
 
-/* @media only screen and (min-width:416px) and (max-width:541){
-    .box1 img{ 
-        position: absolute;
-        margin-top: -70px; 
-        width: 50%;
-        margin-left: 80%;
-        height: auto;
-    }  
-    .container1 h1{ 
-        margin-top: 200px;
-        margin-left: -20px;
-        font-size: 1.0rem;
-    }
-    .container1 h2{ 
-        margin-top: -10px;
-        margin-left: -590px;
-        font-size: 1.3rem;
-    }
-    .container2 { 
-        font-size: 80%;
-        margin-top: 100px;
-    }
-} */
+
 
 @media only screen and (max-width:769px) and (min-width:542px) {
     .box1 img{ 
@@ -94,8 +72,8 @@
     
     .container1 h1{ 
         margin-top: 460px;
-        margin-left: -150px;
-        font-size: 4rem;
+        margin-left: -100px;
+        font-size: rem;
     }
     .container1 h2{ 
         margin-top: 20px;
@@ -107,6 +85,7 @@
         margin-top: 100px;
     }
 }
+
 
 /****************************home**********************************/
 
@@ -205,7 +184,8 @@
 /**********************contact**********************/
 #contact{
     background: rgb(143, 141, 116);
-    height: 180px;
+    height: 200px;
+    
 } 
 
 .f7{
@@ -225,9 +205,9 @@
     color: rgb(43, 65, 50);
 }
 
-#navbar2 a{
+.green{
     font-family: 'Prompt', sans-serif;
-    color:rgb(43, 65, 50);
+    color: rgb(43, 65, 50);
 }
 
 .navbar-nav a{
